@@ -1,0 +1,10 @@
+body{
+    background-color: beige;
+}
+.parent-container{
+    margin-left: 200px;
+
+}
+.upper-taskbar{
+    display: flex;
+}
