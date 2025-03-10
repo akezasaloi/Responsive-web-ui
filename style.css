@@ -1,5 +1,6 @@
 body{
     background-size: 100%;
+    background-repeat: no-repeat;
     margin-left: 100px;
     height: 100%;
 }
@@ -52,13 +53,13 @@ border-style:dashed ;
 
     }
     .pic-two{
-        margin-left: 900px;
-        margin-top: -350px;
+        margin-left: 1100px;
+        margin-top: -500px;
        
     }
     #image-one{
         border-radius: 5%;
-        width: 70%;
+        width: 90%;
     }
     #start-button{
         border-radius: 35px;
@@ -80,5 +81,58 @@ border-style:dashed ;
         margin:10px;
     }
     .third-paragraph{
-        gap: 5000px;
+        display: flex;
+        gap: 15px;
     }
+    .second-section{
+        display: flex;
+        justify-content: space-between;
+        gap:5px;
+        margin: 30px;
+        padding:40px;
+        
+    }
+    h1{
+        font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    #span{
+        font-size: 20px;
+    }
+    #word{
+        font-size: 17px;
+    }
+    .third-section{
+        display:flex;
+        justify-content: space-between;
+
+    }
+    .previous-next-button{
+        .fa-play{
+        color: #333;
+        background-color: white;
+        border: none;
+        
+    }
+    
+    }
+    .image-second-section{
+display: flex;
+justify-content: space-between;
+    }
+    .section-four{
+        text-align: center;
+    }
+#wall-pic{
+    width: 40%;
+    
+}
+.section-five{
+    display: flex;
+    
+}
+.section-five-text{
+width: 50%;
+}
+h3{
+    font-size: 30px;
+}
