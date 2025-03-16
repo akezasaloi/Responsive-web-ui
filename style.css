@@ -7,6 +7,11 @@ body{
     row-gap: 5px;
     position:absolute;
 }
+@media screen and (min-width: 2304px) and (max-width: 1440px){
+    .container{
+display: flex;
+    }
+}
 header{
         text-align: center;
         color: #333;
