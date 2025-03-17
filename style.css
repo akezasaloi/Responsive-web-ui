@@ -17,8 +17,11 @@ header{
         text-align: center;
         color: #333;
         display: flex;
-        gap: 190px;
+        gap: 150px;
         
+    }
+    h1{
+        padding-left: 160px;
     }
 
     nav{
@@ -28,16 +31,16 @@ header{
         list-style: none;
         padding: 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-left: 510px;
         margin-top: 40px;
     }
     nav ul li {
         display: inline;
-        margin: 0 15px;
+        margin: 0 5px;
     }nav ul li {
         display: inline;
-        margin: 0 15px;
+        margin: 0 5px;
     }
     nav ul li a {
         color: #333;
