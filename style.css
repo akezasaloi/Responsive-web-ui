@@ -6,6 +6,7 @@ body{
     height: 100%;
     row-gap: 5px;
     position:absolute;
+    overflow-x: hidden;
 }
 @media screen and (min-width: 2304px) and (max-width: 1440px){
     .container{
@@ -16,7 +17,7 @@ header{
         text-align: center;
         color: #333;
         display: flex;
-        gap: 150px;
+        gap: 190px;
         
     }
 
@@ -50,7 +51,7 @@ header{
         padding-left: 10%;
         color:white;
     }
-    #second-paragraph{
+    #introduction{
         text-align:justify;
         font-size: 50px;
     }
@@ -58,7 +59,11 @@ header{
 border-style:dashed ;
 
     }
-    #section-one{
+    .introduction-details{
+        padding-left: 180px;
+    }
+
+    #elevate-your-space-part{
         display:flex;
 
     }
@@ -97,24 +102,23 @@ border-style:dashed ;
         border-radius: 6px;
         text-align: center;
     }
-    .third-paragraph{
+    .item-price-percentages{
         display: flex;
         gap: 15px;
-    }
-    .second-section{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 150px;
-    }
-    #span{
         font-size: 40px;
+    }
+    .ikea-part{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 150px;
     }
     #word{
         font-size: 17px;
     }
-    .third-section{
+    .best-seller{
         display:flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        gap: 1000px;
 
     }
     .previous-next-button{
@@ -126,24 +130,28 @@ border-style:dashed ;
     }
     
     }
-    .image-second-section{
+    .vase-images{
 display: flex;
-justify-content: space-between;
+justify-content: space-evenly;
     }
-    .section-four{
+    .restyle-your-space{
         text-align: center;
+        padding-bottom: 250px;
     }
 #wall-pic{
     width: 40%;
     
 }
-.section-five{
+.in-store-promotions{
     display: flex;
-    gap:-1000px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+
     
 }
-#section-five-text{
-width: 50%;
+#offers{
+text-align: center;
+margin-right: 14%;
 }
 h3{
     font-size: 50px;
@@ -153,33 +161,38 @@ h4{
     font-size: 50px;
     line-height: 50px;
 }
-.section-six{
+.stylish-pieces{
 display: flex;
-gap: 650px; 
+justify-content: space-evenly;
+gap: 200px; 
 }
-.section-seven{
+.what-we-offer{
     text-align: center;
     p{
         font-size: 30px;
         line-height: 10px;
     }
+    padding-bottom: 180px;
 }
-.section-eight{
+.products{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-bottom: 230px;
 }
-.section-nine{
+.reviews-and-testimonials{
     text-align: center;
     p{
         font-size: 30px;
         line-height: 4px;
     }
+    padding-bottom: 300px;
 }
-.image-reviews{
+.customer-review{
     text-align: center;
     display: flex;
     gap: 100px;
     margin-left: 400px;
+    padding-bottom: 200px;
 }
 #arther-name{
     margin: none;
@@ -196,14 +209,14 @@ gap: 650px;
 }
 #review{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .review-pic{
     margin-top: -120px;
 }
-.last-section{
+.about-us{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 a {
     text-decoration: none;
@@ -211,7 +224,8 @@ a {
 }
 .copyrights{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap:650px;
 }
 .fa-copyright{
 color: #000;
